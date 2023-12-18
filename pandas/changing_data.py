@@ -15,5 +15,5 @@ df['Total'] = df.iloc[:, 4:10].sum(axis=1)
 cols = list(df.columns.values)
 
 ## reordering columns
-df = df[cols[0:11] + [cols[-1]] + [cols[11]]]
-print(df.head(5))
+##df = df[cols[0:11] + [cols[-1]] + [cols[11]]]
+##print(df.head(5))
